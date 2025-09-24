@@ -1,3 +1,43 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://Gintoki-i.github.io/"
+title = "Gintoki's Blog"
+theme = "PaperMod"
+enableRobotsTXT = true
+defaultContentLanguage = "zh-cn"
+
+[pagination]
+  pagerSize = 10  # 旧版 paginate=10 的替代写法
+
+[minify]
+  disableXML = true
+
+[params]
+  env = "production"
+  defaultTheme = "auto"
+  showReadingTime = true
+  showShareButtons = false
+  showPostNavLinks = true
+  showCodeCopyButtons = true
+  showRssButtonInSectionTermList = true
+  disableSpecial1stPost = false
+  comments = false
+
+  # 主页文案（可改）
+  homeInfoParams = { Title = "你好，我是 Gintoki", Content = "记录与分享。" }
+
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 3
+  [[menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 4
