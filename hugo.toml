@@ -22,7 +22,7 @@ defaultContentLanguage = "zh-cn"
   comments = false
 
   # 主页文案（可改）
-  homeInfoParams = { Title = "你好，我是 Gintoki", Content = "记录与分享。" }
+  homeInfoParams = { Title = "", Content = "。" }
 
 [menu]
   [[menu.main]]
